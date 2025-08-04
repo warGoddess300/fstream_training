@@ -32,7 +32,12 @@ getline(cin, user_input);
 
 ofstream a_text_file("text.txt");
 
+//writing in the text file what is stored in the variable string user_input
+
 a_text_file << user_input;
+  
+//closing the file
+  
 a_text_file.close();
 
 return 0;
