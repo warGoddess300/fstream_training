@@ -22,9 +22,15 @@ using namespace std;
 
 int main() {
 
+//declaring a variable and its data type
+
 string user_input;
 
+//outputting a message to the user
+
 cout << "Enter your name: " << endl;
+
+//storing input from the user to the variable user_input
 
 getline(cin, user_input);
 
